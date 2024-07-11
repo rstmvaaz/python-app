@@ -23,5 +23,5 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}   
 
       - name: Push image
-       run: docker push rstmvaas/python-app:1.0.0       
+         run: docker push rstmvaas/python-app:1.0.0       
       
